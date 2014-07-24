@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 14, 2014, 9:03:35 PM
+    Author     : g3prataksha
+*/
+
+.app-header {
+    height: 50px;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center, circle farthest-corner, #6E6E6E 0%, #000000 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center, circle farthest-corner, #6E6E6E 0%, #000000 100%);
+
+    /* Opera */ 
+    background-image: -o-radial-gradient(center, circle farthest-corner, #6E6E6E 0%, #000000 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #6E6E6E), color-stop(1, #000000));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #6E6E6E 0%, #000000 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(circle farthest-corner at center, #6E6E6E 0%, #000000 100%);
+    
+    font-weight: bold;
+    font-size: 2em;
+    font-family: "Lucida Console", Monaco, monospace;
+    line-height: 30px;
+    border-bottom: 1px solid grey;
+}
+
+.header-logo {
+    margin-left: 2em;
+    padding: 5px;
+}
+
+.panels-sample-sliding-panels > * {
+    width: 100%;
+    -moz-box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+    box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+}
+
+.panels-sample-sliding-item {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.panels-sample-sliding-content {
+    text-align: left;
+    padding: 10px;
+}
+
+.enyo-fit {
+    background-color: whitesmoke;
+}
+
+.onyx-progress-bar-bar {
+    background: rgba(204,14,14,0.8) url('../../lib/onyx/images/gradient.png') repeat-x;
+}
+
+.onyx-slider-knob {
+    background: url('../../assets/images/logo_trans.png') left top no-repeat;
+}
+
+.reset-btn {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.onyx-progress-bar {
+    height: 1px;
+}
+
+.onyx-slider-knob.active,  .onyx-slider-knob.pressed{
+    background: url('../../assets/images/logo.png') left top no-repeat;
+}
+
+.second-content {
+    padding: 2em;
+    text-align: center;
+}
+
+.copyright-info {
+    text-decoration: none;
+    color: silver;
+    position: absolute;
+    position: relative;
+    top: 3em;
+}
